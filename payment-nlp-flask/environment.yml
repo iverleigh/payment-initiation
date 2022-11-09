@@ -1,0 +1,11 @@
+name: payment-nlp
+dependencies:
+  - python=3.6
+  - numpy
+  - pandas
+  - nltk
+  - flask
+  - scipy
+  - pip:
+    - sklearn
+    - sklearn-crfsuite

@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Payment NLP",
+    "version": "1.0",
+    "permissions": [
+      "https://mail.google.com/",
+      "https://inbox.google.com/",
+      "*://localhost/"
+    ],
+    "content_scripts" : [
+      {
+        "matches": ["https://mail.google.com/*", "https://inbox.google.com/*"],
+        "js": ["/mdl/material.min.js", "inboxsdk.js", "utilities.js", "compose.js", "message.js", "widgetView.js"],
+        "css": ["/mdl/material.indigo-pink.min.css", "/mdl/material-icons.css"]
+      }
+    ],
+    "icons" : { "256": "finastra-icon.png"}
+  }

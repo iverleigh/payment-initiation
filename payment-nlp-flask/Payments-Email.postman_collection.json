@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "24bf9fe9-b478-4678-9f48-6f2dd820b146",
+		"name": "Payments-Email",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test_CRF",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\":\"Hi Janet, can you please transfer $2500 from account T5FF6 to account XX456? Thank you!\"}"
+				},
+				"url": {
+					"raw": "localhost:5000/predict",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
