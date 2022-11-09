@@ -1,5 +1,5 @@
 # payment-initiation
-Natural Language Processing model that extracts required text and submits to a banking API.
+Natural Language Processing model that extracts required text from an email and submits a request to a banking API for a payment transfer.
 
 - Run payment-nlp-flask
     1. create conda environment from the environment.yml file
