@@ -1,6 +1,6 @@
 # payment-initiation
 Natural Language Processing model implemented through a Google Chrome browser extension that extracts required data from unstructured text and submits a request to a banking API for a payment transfer. <br>
-Check out our published article of this Proof-of-Concept <a href="https://medium.com/finastra-fintechs-devs/a-practical-proof-of-concept-using-natural-language-processing-to-parse-unstructured-text-62fa94852708">here</a>!<br>
+<strong>Check out our published articles of this Proof-of-Concept <a href="https://medium.com/finastra-fintechs-devs/a-practical-proof-of-concept-using-natural-language-processing-to-parse-unstructured-text-62fa94852708">here</a> and one of the ways we deployed the model <a href="https://medium.com/finastra-fintechs-devs/deploying-a-machine-learning-model-using-a-flask-application-api-9b851a2e7866">here</a>!<br></strong>
 
 - Run payment-nlp-flask
     1. create conda environment from the environment.yml file
